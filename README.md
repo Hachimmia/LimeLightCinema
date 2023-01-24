@@ -15,6 +15,7 @@ The website has this feature built-in:
 - booking system
 - Register system
 - Login/logout system
+- People need to be members of the website to have access to see films
 
 For building the website I used:
 - HTML
@@ -25,6 +26,7 @@ For building the website I used:
 - JavaScript
 - npm
 - Bootstrap 5.3
+- Session
 - Swiper
 - AOS
 
@@ -39,5 +41,7 @@ Software:
 - Some websites for testing my website
 
 Navigation Map
-![image](https://user-images.githubusercontent.com/92265991/214430441-22a96bec-e933-4dd0-a1e2-abb3291bb408.png)
+![LLC navigation map](https://user-images.githubusercontent.com/92265991/214433279-ef4aaa28-3302-4e3f-ad83-ff9ceeff2311.jpg)
+
+
 
