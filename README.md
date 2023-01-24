@@ -22,6 +22,7 @@ For building the website I used:
 - SASS
 - CSS
 - PHP
+- mySQL
 - SQL
 - JavaScript
 - npm
