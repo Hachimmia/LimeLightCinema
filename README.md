@@ -36,6 +36,7 @@ Software:
 - phpMyAdmin
 - XAMPP
 - FileZilla
+- GitHubDesktop
 - Adobe XD
 - Adobe Illustrator
 - Click-up (for planning)
