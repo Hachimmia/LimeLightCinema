@@ -1,5 +1,5 @@
 # LimeLightCinema
-Limelight Cinema is one of the projects from my last year of HND at Edinburgh College, which finished in 2023. 
+Limelight Cinema is one of the projects from my year 2 of HND at Edinburgh College, which finishes in 2023. 
 The website is for a Cinema in Scotland, to show all the movies that are currently playing and also with booking and account systems.
 
 I had to do all the research about the topic, demographic, and competitors as well as all the technical and design documentation: Analysis of the brief, User analysis, target audience, project plan, and task analysis.
