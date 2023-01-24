@@ -1,0 +1,144 @@
+@import "./colours";
+//card slider
+#cards{
+margin: 0;
+padding: 0;
+font-family: $Mulish;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#cards .card {
+  background: #fff;
+  border-radius: 8px;
+
+
+}
+#cards .name-story{
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+  height: 80px;
+  text-align: center !important;
+}
+#cards .name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center !important;
+    font-family: $Mulish;
+    padding: 25px 15px;
+}
+
+#cards .card .image-box{
+height: auto;
+}
+#cards .card .image-box img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+#cards .container{
+  max-width: 1400px;
+  width: 100%;
+  padding: 40px 0;
+}
+#cards .slide-container{
+  margin: 0 80px;
+  overflow:hidden;
+}
+#cards .swiper-navBtn{
+  color:$dark-blue;
+  height: 40px;
+  width: 40px;
+  background: $yellow;
+  border-radius: 50%;
+}
+#cards .card:hover{
+  box-shadow: $light-blue;
+}
+#cards .swiper-navBtn::before,
+#cards .swiper-navBtn::after{
+  font-size: 20px;
+}
+#cards .swiper-pagination{
+  color: $white;
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper-navBtn{
+    display:none;
+  }
+}
+/*junior*/
+#cards-junior{
+  margin: 0;
+  padding: 0;
+  font-family: $PoorStory;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  #cards-junior .card {
+    background: $light-orange;
+    border-radius: 8px;
+  }
+  #cards-junior .name-story{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+    height: 80px;
+    text-align: center !important;
+  }
+  #cards-junior .name{
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center !important;
+      font-family: $PoorStory;
+      padding: 25px 15px;
+      color: $medium-blue;
+  }
+  #cards-junior .card .image-box{
+    height:400px;
+    width: auto;
+  }
+  #cards-junior .card .image-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  #cards-junior .container{
+    max-width: 1400px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  #cards-junior .slide-container{
+    margin: 0 80px;
+    overflow:hidden;
+  }
+  #cards-junior .swiper-navBtn{
+    color:$dark-blue;
+    height: 40px;
+    width: 40px;
+    background: $yellow;
+    border-radius: 50%;
+  }
+  #cards-junior .card:hover{
+    box-shadow: $light-blue;
+  }
+  #cards-junior .swiper-navBtn::before,
+  #cards-junior .swiper-navBtn::after{
+    font-size: 20px;
+  }
+  #cards-junior .swiper-pagination{
+    color: $white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .swiper-navBtn{
+      display:none;
+    }
+  }

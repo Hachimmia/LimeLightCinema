@@ -1,0 +1,33 @@
+@import "../components/colours";
+.card-form {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    padding-top: 200px;
+
+    .form-header {
+        font-weight: 600 !important;
+        font-family: $Mulish;
+        color: $yellow;
+    }
+
+    .btn-form-submit {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+        background-color: $yellow !important;
+        color: #fff;
+    }
+    .sub-titles {
+        color: $white;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+.center-form{
+    padding-top: 100px;
+}

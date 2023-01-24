@@ -1,0 +1,59 @@
+@import "./components/colours";
+@import "./components/footer";
+@import "./components/navbar";
+@import "./components/mixin";
+@import "./components/cardSlider";
+
+@import "pages/Adult-home";
+@import "pages/adult-singleFilm";
+@import "pages/junior-home";
+@import "pages/admin-panel";
+@import "pages/loginRegister";
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
+  .body-adult {
+    background-color:$dark-blue;
+    p {
+      font-family: $Montserrant;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: $Mulish;
+    }
+  }
+  .body-junior {
+    background-color:$medium-blue;
+    p {
+      font-family: $Poppins!important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: $PoorStory!important;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  
+    /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  

@@ -1,0 +1,24 @@
+@mixin section() {
+    padding-bottom: 40px;
+  }
+@mixin section-title($color, $font) {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $color;
+    font-family: $font;
+    padding-top: 60px;
+}
+@mixin section-text($color, $font) {
+  margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font;
+    color: $color;
+}

@@ -1,0 +1,295 @@
+@import "../components/mixin";
+@import "../components/colours";
+
+/*----Hero-----*/
+#hero-j {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background: url("../assets/img/junior.jpg") top center;
+        background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background: linear-gradient(0deg, rgb(1, 15, 43) 0%, rgb(2, 23, 57) 100%);*/
+    padding: 0;
+  }
+  /*width: 100%;
+  height: 60vh;
+  background: url("../img/minions-cut.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;*/
+  #hero-j .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    padding-top: 60px;
+    
+  }
+  .bg-carousel{
+    background-color: rgba(2, 23, 57, 0.6) !important;
+    border-radius: 50%;
+  }
+  #hero-j h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: $PoorStory!important;
+  }
+  .font-j{
+    font-family: $PoorStory!important;
+    letter-spacing:5px; 
+    font-weight:500;
+  }
+  #hero-j p {
+    width: 80%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin: 0 auto 30px auto;
+    color: #fff;
+    font-family: $Poppins!important;
+  }
+  
+  #hero-j .carousel-control-prev,
+  #hero-j .carousel-control-next {
+    width: 10%;
+  }
+  
+  #hero-j .carousel-control-next-icon,
+  #hero-j .carousel-control-prev-icon {
+    background: none;
+    font-size: 48px;
+    line-height: 1;
+    width: auto;
+    height: auto;
+  }
+  
+  #hero-j .btn-get-started {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #F2A305;
+  }
+  
+  #hero-j .btn-get-started:hover {
+    background: #F2A305;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero-j p {
+      width: 60%;
+    }
+  
+    #hero-j .carousel-control-prev,
+    #hero-j .carousel-control-next {
+      width: 5%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero-j .carousel-container {
+      height: 90vh;
+    }
+  
+    #hero-j h2 {
+      font-size: 28px;
+    }
+  }
+  
+  #hero-j .hero-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  
+  #hero-j .wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  #hero-j .wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  #hero-j .wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+
+
+
+   /*--------------------------------------------------------------
+  # Cards
+  --------------------------------------------------------------*/
+.section-title-j {
+  @include section()
+}
+
+.section-title-j h2 {
+  @include section-title($light-acqua, $PoorStory);
+  font-size: 50px;
+}
+
+.section-title-j h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: $light-orange;
+  margin: 10px 10px;
+}
+
+/*game*/
+#games {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background: url("../assets/img/lego.jpg");
+  min-height:500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background: linear-gradient(0deg, rgb(1, 15, 43) 0%, rgb(2, 23, 57) 100%);*/
+}
+#games .game1 {
+
+  position: absolute;
+  padding: 290px;
+  top: 0px;
+}
+#games .game-img{
+  height: 450px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  opacity: 0.90;
+  border-radius: 50%;
+}
+#games .bg-bottom{
+  font-family: $PoorStory !important;
+  font-size: 60px !important;
+  background-color: $dark-aqua;
+}
+@media (min-width: 2100px) {
+  #games .game-img {
+    height: 600px;
+  }
+  #games .game1{
+    padding: 450px;
+  }
+}
+/*width: 100%;
+height: 60vh;
+background: url("../img/minions-cut.jpg") top center;
+background-size: cover;
+position: relative;
+padding: 0;*/
+#games .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 70vh;
+  padding-top: 60px;
+}
+
+#games h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#games p {
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+#games .carousel-control-prev,
+#games .carousel-control-next {
+  width: 10%;
+}
+
+#games .carousel-control-next-icon,
+#games .carousel-control-prev-icon {
+  background: none;
+  font-size: 48px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+}
+
+#games .btn-get-started {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #F2A305;
+}
+
+#games .btn-get-started:hover {
+  background: #F2A305;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  #games p {
+    width: 60%;
+  }
+
+  #games .carousel-control-prev,
+  #games .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  #games .carousel-container {
+    height: 90vh;
+  }
+
+  #games h2 {
+    font-size: 28px;
+  }
+}
